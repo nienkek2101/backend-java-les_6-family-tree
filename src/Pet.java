@@ -2,7 +2,8 @@ public class Pet {
     private String name;
     private int age;
     private String species;
-    private String owner;
+    // private String owner; - waarom Person ipv String?
+    private Person owner;
 
     // Constructor
     public Pet(String name, int age, String species) {
@@ -24,28 +25,32 @@ public class Pet {
         return species;
     }
 
-    public String getOwner() {
+    public Person getOwner() {
         return owner;
     }
 
     // Setters
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setSpecies(String species) {
-        this.species = species;
-    }
-
-    public void setOwner(String owner) {
+    public void setOwner(Person owner) {
         this.owner = owner;
     }
 
+    // Deze setters zijn niet nodig omdat je ze in de constructor al aan moet maken.
 
-    // Methodes
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public void setAge(int age) {
+//        this.age = age;
+//    }
+//
+//    public void setSpecies(String species) {
+//        this.species = species;
+//    }
+//
+//    public void setOwner(String owner) {
+//        this.owner = owner;
+//    }
+
 }
