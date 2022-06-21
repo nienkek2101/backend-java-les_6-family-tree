@@ -49,7 +49,7 @@ public class Pet {
 //        this.species = species;
 //    }
 //
-//    public void setOwner(String owner) {
+//    public void setOwner(String owner) { - geen String owner, maar Person owner
 //        this.owner = owner;
 //    }
 
